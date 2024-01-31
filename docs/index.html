@@ -15,9 +15,9 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
     </style>
-    <nav class="py-4 bg-black items-center flex ">
+    <nav class="py-4 bg-black items-center flex justify-between">
       <img src="./assets/img/tekken8logo.png" alt="" class="w-[192px] h-10 ml-4 justify-start" />
-
+      <i class="fa-solid fa-bars text-white mr-5 fa-xl lg:hidden"></i>
       <ul class="text-white flex gap-3 items-center hidden  lg:flex">
         <a href=""> <li class="ml-6 font-Bebas-Neue text-2xl italic hover:text-[#F50A64]">STORY</li></a>
         <li class="text-[#F50A64] text-xl pointer-events-none mb-2 font-semibold ml-2">/</li>
@@ -38,15 +38,17 @@
     </nav>
 
     <section>
-      <div class="flex">
+      <div class="lg:flex">
         <img src="./assets/img/tekken_8_wallpaper___8k__city_background_by_vgejackler_dfjzff7.jpg" alt="" class="absolute hidden lg:block" />
+      </div>
         <img src="./assets/img/bg-tekken-sm.jpg" alt="" class="absolute block lg:hidden">
-        <img src="./assets/img/tekken8logo.png" alt="" class="w-[400px] h-24 left-28 top-[465px] lg:w-[500px] lg:h-[92px] relative lg:left-[620px] lg:top-36" />
-        <h1 class="font-Bebas-Neue text-4xl right-[180px] top-[574px] lg:text-[80px] text-white relative lg:top-[250px] lg:left-44 z-10">FIST MEETS FATE</h1>
-        <button class="hidden font-Bebas-Neue text-2xl text-white bg-[#F50A64] px-8 py-1 rounded absolute rounded-tl-lg rounded-br-xl border-4 border-double border-black lg:top-[450px] lg:right-[330px] hover:bg-opacity-70">BUY NOW</button>
-       <img src="./assets/img/ps5-logo.png" alt="" class="hidden absolute lg:w-32 lg:h-7 lg:top-[525px] lg:right-[500px]">
-       <img src="./assets/img/xbox_series_X_S_logo.png" alt="" class="hidden absolute lg:w-[180px] lg:h-6 lg:top-[525px] lg:right-[285px]">
-       <img src="./assets/img/steam-logo.png" alt="" class="hidden absolute lg:w-[180px] lg:h-10 lg:top-[517px] lg:right-[100px] ">
+        <div class="flex justify-center items-center">
+        <img src="./assets/img/tekken8logo.png" alt="" class="w-44 top-[300px] left-12  sm:w-[375px] sm:h-[86px] sm:left-[101px] sm:top-[460px]  lg:w-[500px] lg:h-[92px] relative lg:left-[500px] lg:top-36" />
+        <h1 class="font-Bebas-Neue top-[340px] right-20 text-xl sm:text-4xl  sm:right-[180px] sm:top-[560px] lg:text-[80px] text-white relative lg:top-[250px] lg:left-44">FIST MEETS FATE</h1>
+        <button class="top-[450px] text-sm px-6 font-Bebas-Neue sm:text-lg sm:top-[710px] lg:text-2xl text-white bg-[#F50A64] lg:px-8 lg:py-1 rounded absolute rounded-tl-lg rounded-br-xl border-4 border-double border-black lg:top-[450px] lg:right-[330px] hover:bg-opacity-70">BUY NOW</button>
+       <img src="./assets/img/ps5-logo.png" alt="" class=" w-16 top-[495px] right-72 sm:w-20 sm:top-[753px] sm:right-[465px] lg:w-32 lg:h-7 lg:top-[525px] lg:right-[500px] absolute">
+       <img src="./assets/img/xbox_series_X_S_logo.png" alt="" class="w-24 top-[495px] sm:w-32 sm:top-[755px] sm:right-64 lg:w-[180px] lg:h-6 lg:top-[525px] lg:right-[285px] absolute">
+       <img src="./assets/img/steam-logo.png" alt="" class="w-32 top-[485px] left-[270px] sm:top-[748px] sm:left-[430px]  lg:w-[180px] lg:h-10 lg:top-[517px] lg:right-[100px] absolute">
       </div>
     </section>
   </body>
