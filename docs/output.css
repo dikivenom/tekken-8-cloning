@@ -1427,6 +1427,10 @@ video {
     top: 570px;
   }
 
+  .lg\:left-\[965px\] {
+    left: 965px;
+  }
+
   .lg\:block {
     display: block;
   }
