@@ -1034,6 +1034,22 @@ video {
     left: 965px;
   }
 
+  .md\:left-\[425px\] {
+    left: 425px;
+  }
+
+  .md\:left-\[45px\] {
+    left: 45px;
+  }
+
+  .md\:left-\[470px\] {
+    left: 470px;
+  }
+
+  .md\:left-\[520px\] {
+    left: 520px;
+  }
+
   .md\:w-\[\] {
     width: ;
   }
