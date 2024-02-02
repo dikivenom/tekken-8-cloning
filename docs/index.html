@@ -15,26 +15,29 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
     </style>
-    <nav class="py-2 lg:py-4 bg-black items-center flex justify-between lg:justify-normal">
+    <nav class="py-2 lg:py-4 bg-black flex items-center justify-between lg:justify-around xl:justify-around">
       
+      <div class="flex justify-start items-center">
       <img src="./assets/img/tekken8logo.png" alt="" class="w-[150px] h-7  lg:w-[192px] lg:h-10 ml-4 justify-start" />
-      
-      <ul class="text-white flex gap-3 items-center hidden  lg:flex">
+      <ul class="text-white flex gap-3 items-center hidden  lg:flex xl:flex">
         <a href=""> <li class="ml-6 font-Bebas-Neue text-2xl italic hover:text-[#F50A64]">STORY</li></a>
         <li class="text-[#F50A64] text-xl pointer-events-none mb-2 font-semibold ml-2">/</li>
         <a href=""> <li class="ml-6 font-Bebas-Neue text-2xl italic hover:text-[#F50A64]">FIGHTERS</li></a>
         <li class="text-[#F50A64] text-xl pointer-events-none mb-2 font-semibold ml-2">/</li>
         <a href=""> <li class="ml-6 font-Bebas-Neue text-2xl italic hover:text-[#F50A64]">MEDIA</li></a>
         <li class="text-[#F50A64] text-xl pointer-events-none mb-2 font-semibold ml-2">/</li>
-        <a href=""> <li class="ml-6 font-Bebas-Neue text-2xl italic hover:text-[#F50A64] mr-44">ULTIMATE EDITION</li></a>
-        <ul class="items-center flex gap-5 ">
+        <a href=""> <li class="ml-6 font-Bebas-Neue text-2xl italic hover:text-[#F50A64]">ULTIMATE EDITION</li></a>
+      </ul>
+    </div>
+    
+      
+        <ul class="items-center flex gap-5 justify-end hidden lg:flex xl:flex ">
           <a href=""><i class="fa-brands fa-discord text-white fa-xl opacity-50 hover:opacity-100"></i></a>
           <a href=""><i class="fa-brands fa-youtube text-white fa-xl opacity-50 hover:opacity-100"></i></a>
           <a href=""><i class="fa-brands fa-instagram text-white fa-xl opacity-50 hover:opacity-100"></i></a>
           <a href=""><i class="fa-brands fa-facebook text-white fa-xl opacity-50 hover:opacity-100"></i></a>
           <a href=""><i class="fa-brands fa-twitter text-white fa-xl opacity-50 hover:opacity-100"></i></a>
-          <button class="font-Bebas-Neue text-2xl text-white bg-[#F50A64] px-4 py-1 rounded-tl-lg rounded-br-xl border-4 border-double border-black hover:bg-opacity-70">BUY NOW<i class="fa-solid fa-arrow-right fa-xs ml-2 items-center"></i></button>
-        </ul>
+          <button class="font-Bebas-Neue text-2xl text-white bg-[#F50A64] px-4 py-1 rounded-tl-lg rounded-br-xl border-4 border-double border-black hover:bg-opacity-70 lg:flex items-center">BUY NOW<i class="fa-solid fa-arrow-right fa-xs ml-2 items-center lg:flex"></i></button>
       </ul>
       <a href="" class="lg:hidden"><i class="fa-solid fa-bars text-white mr-5 fa-xl"></i></a>
     </nav>
@@ -46,12 +49,12 @@
       </div>
         <img src="./assets/img/bg-tekken-sm.jpg" alt="" class="relative block lg:hidden">
         <div class="flex justify-center items-center">
-        <img src="./assets/img/tekken8logo.png" alt="" class="w-44 top-[320px] left-[122px]  sm:w-[375px] sm:h-[75px] sm:left-[124px] sm:top-[490px] md:w-[435px] md:top-[599px] md:left-[170px] lg:w-[500px] lg:h-[92px] absolute lg:left-[620px] lg:top-[295px] xl:left-[595px]" />
-        <h1 class="font-Bebas-Neue top-[355px] right-[155px] text-xl sm:text-4xl  sm:right-[240px] sm:top-[575px] md:text-5xl md:top-[685px] md:right-[285px] lg:text-[80px] text-white absolute z-[1] lg:top-[404px] lg:right-[185px] xl:right-[235px]">FIST MEETS FATE</h1>
+        <img src="./assets/img/tekken8logo.png" alt="" class="w-44 top-[320px] left-[122px]  sm:w-[375px] sm:h-[75px] sm:left-[124px] sm:top-[490px] md:w-[435px] md:top-[599px] md:left-[170px] lg:w-[500px] lg:h-[92px] absolute lg:left-[490px] lg:top-[295px] xl:left-[595px]" />
+        <h1 class="font-Bebas-Neue top-[355px] right-[155px] text-xl sm:text-4xl  sm:right-[240px] sm:top-[575px] md:text-5xl md:top-[685px] md:right-[295px] lg:text-[80px] text-white absolute z-[1] lg:top-[404px] lg:right-[105px] xl:right-[235px]">FIST MEETS FATE</h1>
         <button class="top-[389px] text-sm px-5 font-Bebas-Neue sm:px-7 sm:text-lg sm:top-[635px] md:text-lg md:px-9 md:py-1 md:top-[750px] lg:text-2xl text-white bg-[#F50A64] lg:px-8 lg:py-1 rounded absolute rounded-tl-lg rounded-br-xl border-4 border-double border-black lg:top-[495px] lg:right-[254px] hover:bg-opacity-70 xl:right-[372px]">BUY NOW</button>
        <img src="./assets/img/ps5-logo.png" alt="" class=" w-16 top-[432px] right-72 sm:w-24 sm:top-[700px] sm:right-[465px] md:w-32 md:top-[830px] md:right-[505px] lg:w-32 lg:h-7 lg:top-[585px] lg:right-[525px] absolute">
        <img src="./assets/img/xbox_series_X_S_logo.png" alt="" class="w-24 top-[432px] sm:w-36 sm:top-[700px] sm:right-64 lg:w-[180px] md:w-[185px] md:top-[830px] md:right-[272px] lg:h-6 lg:top-[585px] lg:right-[303px] absolute">
-       <img src="./assets/img/steam-logo.png" alt="" class="w-20 top-[428px] left-[270px] sm:w-24 sm:top-[700px] sm:left-[430px] md:w-32 md:top-[830px] md:left-[520px] lg:w-[180px] lg:h-10 lg:top-[575px] lg:left-[980px] absolute">
+       <img src="./assets/img/steam-logo.png" alt="" class="w-20 top-[428px] left-[270px] sm:w-24 sm:top-[700px] sm:left-[430px] md:w-32 md:top-[830px] md:left-[520px] lg:w-[180px] lg:h-10 lg:top-[575px] lg:left-[750px] xl:left-[980px] absolute">
       </div>
     </section>
 

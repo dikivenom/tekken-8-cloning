@@ -620,6 +620,10 @@ video {
   margin-right: 1.25rem;
 }
 
+.ml-44 {
+  margin-left: 11rem;
+}
+
 .block {
   display: block;
 }
@@ -672,6 +676,10 @@ video {
   justify-content: flex-start;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-center {
   justify-content: center;
 }
@@ -680,12 +688,24 @@ video {
   justify-content: space-between;
 }
 
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-items-end {
+  justify-items: end;
+}
+
 .gap-3 {
   gap: 0.75rem;
 }
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .rounded {
@@ -923,6 +943,38 @@ video {
     top: 830px;
   }
 
+  .md\:right-\[255px\] {
+    right: 255px;
+  }
+
+  .md\:right-\[295px\] {
+    right: 295px;
+  }
+
+  .md\:right-\[355px\] {
+    right: 355px;
+  }
+
+  .md\:right-\[385px\] {
+    right: 385px;
+  }
+
+  .md\:left-\[190px\] {
+    left: 190px;
+  }
+
+  .md\:left-\[250px\] {
+    left: 250px;
+  }
+
+  .md\:left-\[270px\] {
+    left: 270px;
+  }
+
+  .md\:left-\[290px\] {
+    left: 290px;
+  }
+
   .md\:w-32 {
     width: 8rem;
   }
@@ -1033,6 +1085,58 @@ video {
     left: 980px;
   }
 
+  .lg\:left-\[520px\] {
+    left: 520px;
+  }
+
+  .lg\:left-\[500px\] {
+    left: 500px;
+  }
+
+  .lg\:left-\[40px\] {
+    left: 40px;
+  }
+
+  .lg\:left-\[490px\] {
+    left: 490px;
+  }
+
+  .lg\:right-\[485px\] {
+    right: 485px;
+  }
+
+  .lg\:right-\[385px\] {
+    right: 385px;
+  }
+
+  .lg\:left-\[900px\] {
+    left: 900px;
+  }
+
+  .lg\:left-\[800px\] {
+    left: 800px;
+  }
+
+  .lg\:left-\[700px\] {
+    left: 700px;
+  }
+
+  .lg\:left-\[750px\] {
+    left: 750px;
+  }
+
+  .lg\:right-\[165px\] {
+    right: 165px;
+  }
+
+  .lg\:right-\[125px\] {
+    right: 125px;
+  }
+
+  .lg\:right-\[105px\] {
+    right: 105px;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1079,6 +1183,14 @@ video {
 
   .lg\:justify-normal {
     justify-content: normal;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:justify-around {
+    justify-content: space-around;
   }
 
   .lg\:px-8 {
@@ -1137,5 +1249,37 @@ video {
 
   .xl\:left-\[595px\] {
     left: 595px;
+  }
+
+  .xl\:left-\[9\] {
+    left: 9;
+  }
+
+  .xl\:left-\[980px\] {
+    left: 980px;
+  }
+
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:flex {
+    display: flex;
+  }
+
+  .xl\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
+  .xl\:justify-around {
+    justify-content: space-around;
+  }
+
+  .xl\:justify-evenly {
+    justify-content: space-evenly;
   }
 }
